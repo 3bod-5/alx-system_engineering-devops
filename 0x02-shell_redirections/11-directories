@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls -l | grep "^d" | grep ^d | -ld .*/ | wc -1
